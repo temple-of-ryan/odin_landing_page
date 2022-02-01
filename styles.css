@@ -1,27 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
 .hero {
     background-color: #1f2937;
 }
 
-.header {
+.company {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-left: 12%;
+}
 
+.header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .hmain {
-    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.himg {
+    display: flex;
+    margin-right: 12%;
+}
+
+.hbutton {
+    background-color: #2554f0;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.htitle {
     font-weight: bolder;
+    font-size: 48px;
     color: #f9faf8;
+}
+
+.hall {
+    display: flex;
+    padding: 8px;
+    padding: 12%;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    margin-left: 16px;
 }
 
 ul {
     list-style: none;
+    display: flex;
+    padding-right: 12%;
 }
 
 .hpara, .link {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
-}
-
-body {
-
 }
