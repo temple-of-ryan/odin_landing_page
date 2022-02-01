@@ -1,0 +1,27 @@
+.hero {
+    background-color: #1f2937;
+}
+
+.header {
+
+}
+
+.hmain {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+}
+
+.hpara, .link {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+body {
+
+}
